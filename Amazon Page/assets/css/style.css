@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    background-color: #e9edee;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*HEADER*/
+.header-img{
+    width: 100%;
+    background-color: #222f3f;
+    text-align: left;
+    height: 3.5rem;
+}
+.header-img img{
+    height: 2rem;
+    padding: 1rem;
+}
+
+/*NAV*/
+.buttons-block{
+    background-color: #364759;
+    height: 1.8rem;
+}
+.buttons-block a{
+    margin-left: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.buttons-nav{
+    padding-top: 0.3rem;
+}
+
+/*MAIN*/
+main{
+    width: 97%;
+    margin-inline: auto;
+}
+.orange-title{
+    background-color: #f56600;
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+    height: 1.5rem;
+}
+.orange-title a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.main-header{
+    background-image: url("../images/bg-image.png");
+    height: 10rem;
+    cursor: pointer;
+}
+.main-header h1{
+    text-align: center;
+    color: white;
+    padding-top: 2.5rem;
+}
+.main-header p{
+    text-align: center;
+    color: white;
+}
+.first-section{
+    background-color: white;
+    margin-top: 1.5rem;
+}
+.first-section p{
+    display: inline;
+    margin-right: 1rem;
+}
+.first-txt{
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+.first-section a{
+    color: #145c68;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.img-section{
+    text-align: center;
+}
+.img-section div{
+    margin-inline: 20px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 4px 2px 9px lightgray ;
+}
+.img-section .kindle, .desk, .smartwatches, .pets{
+    width: 15rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.img-section img{
+    height: 100%;
+    object-fit: cover;
+    object-position: -55px 0%;
+}
+.img-section .desk img{
+    object-position: -100px 0%;
+}
+.img-section .smartwatches img{
+    object-position: -80px 0%;
+}
+
+
+.gaming-img{
+    margin-top: 2.5rem;
+}
+.gaming-tech img{
+    width: 100%;
+    object-fit: cover;
+}
+.gaming-tech p{
+    display: inline;
+}
+.gaming-txt{
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.gaming-txt a{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #145c68;
+}
+.audio-devices{
+    margin-top: 2.5rem;
+}
+.audio-devices img{
+    width: 100%;
+    object-fit: cover;
+}
+.audio-txt{
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.audio-txt p{
+    display: inline;
+}
+.audio-txt a{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #145c68;
+}
+
+
+/*FOOTER*/
+.top-link{
+    background-color: #364759;
+    height: 2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.top-link a{
+    color: white;
+}
+.top-link p{
+    padding-top: 0.5rem;
+    font-size: 12px;
+}
+.bottom-img{
+    background-color: #222f3f;
+    height: 8rem;
+    text-align: center;
+}
+.bottom-img img{
+    width: 10%;
+    padding-top: 3rem;
+}
